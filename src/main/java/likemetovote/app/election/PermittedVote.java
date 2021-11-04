@@ -1,0 +1,8 @@
+package likemetovote.app.election;
+
+enum PermittedVote {
+	SYMBOL, 
+	CANDIDATE_UNINOMINAL, 
+	CANDIDATE_UNINOMINAL_AND_SYMBOL,
+	CANDIDATE_UNINOMINAL_AND_SYMBOL_DISJUNCTED 
+}
